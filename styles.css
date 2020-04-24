@@ -1,0 +1,83 @@
+*{font-family: 'Nunito Sans', sans-serif;}  
+
+html {height: 100%;}
+
+html, body{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    height: 100%;
+    background-color: #4bbf73!important;
+}
+
+/* For screen of 768px height and less add padding to body for content to show */
+@media only screen and (max-height: 768px){
+    body{
+        height: 100%;background-color: #4bbf73;
+        margin-bottom: 60px!important;
+    }
+}
+
+.container{margin-top: 10%;overflow-y: auto!important;}
+
+.navbar{
+    border-radius: 10px 10px 0 0;
+    box-shadow:0 -0.5rem 1rem rgba(0, 0, 0, 0.24)!important;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #ffffff;
+    border: none;
+}
+
+.transparent-nav{
+    background-color: transparent;
+    box-shadow: 0 0!important;
+}
+
+.svg-brand{margin-left: 16px;}
+
+#lead-para{font-size: 22px;}
+
+.lead{font-size: 16px;}
+
+#basket-png{
+    height: 80px; 
+    width: auto;
+    padding-left: 20px;
+}
+
+.card-columns{ 
+    column-count:2!important;
+    column-gap: 1rem!important;
+    margin-bottom: 18%!important;
+}
+
+.card{
+    display: inline-block!important;
+    width: 100%;
+    border: 0px!important;
+    border-radius: 7px;
+}
+
+.card-footer{background-color: #343a40!important;}
+
+#cookieOne, #cookieTwo, #cookieThree{margin-bottom: 0!important;padding-left: 20px!important;padding-top: 20px!important;}
+
+.price{font-size: 11px!important;}
+
+.list-group-item{font-size: 11px!important;padding-left: 0px!important;}
+
+.cookie-card-body{padding-top: 0px!important;}
+
+.my-btn{padding: 0!important;}
+
+@media only screen and (min-width: 768px) {
+    /* For Desktop */
+    *{
+        visibility: hidden;
+        display: none;
+    }
+}
